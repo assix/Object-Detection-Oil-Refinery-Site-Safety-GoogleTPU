@@ -1,13 +1,15 @@
 # Object-Detection-Oil-Refinery-Site-Safety-GoogleTPU 🛢️🛡️
 ### Powered by Google Coral Edge TPU
 
-![Refinery Site Overview](images/oilandgas_refinery_site.png)
-
+<p align="center">
+  <img src="images/oilandgas_refinery_site.png" width="350" alt="Refinery Site Overview">
+</p>
 ## 📋 Overview
 This repository provides a high-performance **Edge AI** solution for monitoring safety at oil and gas sites. Using a **Google Coral USB TPU**, we perform real-time object detection to identify personnel and trigger alerts if they enter hazardous "Restricted Zones."
 
-![Google Coral USB TPU Hardware Setup](images/coral_tpu.jpg)
-
+<p align="center">
+  <img src="images/coral_tpu.jpg" width="200" alt="Google Coral USB TPU Hardware Setup">
+</p>
 ## 🛠️ Hardware Requirements & Specifications
 To achieve real-time, low-latency inference at the edge, this project utilizes the **Google Coral USB Accelerator**.
 
@@ -33,8 +35,9 @@ To achieve real-time, low-latency inference at the edge, this project utilizes t
 ## 🔍 Visual Logic: Geofencing
 The system draws a virtual perimeter over the camera feed. If a detected `person` coordinate overlaps with the `DANGER_ZONE` coordinates, a red alert is logged. By utilizing the 4 TOPS performance of the Edge TPU, the detection happens in milliseconds, ensuring immediate safety response.
 
-![Detection Logic Example](images/refinery_safety_danger_zone.png)
-
+<p align="center">
+  <img src="images/refinery_safety_danger_zone.png" width="300" alt="Detection Logic Example">
+</p>
 ## 📂 Project Structure
 * `safezone_monitor.py`: Core logic for detection and restricted area checking.
 * `requirements.txt`: Python dependencies.
