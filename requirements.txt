@@ -1,0 +1,3 @@
+Pillow
+pycoral
+tflite-runtime
