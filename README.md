@@ -8,7 +8,7 @@
 This repository provides a high-performance **Edge AI** solution for monitoring safety at oil and gas sites. Using a **Google Coral USB TPU**, we perform real-time object detection to identify personnel and trigger alerts if they enter hazardous "Restricted Zones."
 
 <p align="center">
-  <img src="images/coral_tpu.jpg" width="70%" alt="Google Coral USB TPU Hardware Setup">
+  <img src="images/coral_tpu.jpg" width="50%" alt="Google Coral USB TPU Hardware Setup">
 </p>
 ## 🛠️ Hardware Requirements & Specifications
 To achieve real-time, low-latency inference at the edge, this project utilizes the **Google Coral USB Accelerator**.
