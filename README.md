@@ -2,7 +2,7 @@
 ### Powered by Google Coral Edge TPU
 
 <p align="center">
-  <img src="images/oilandgas_refinery_site.png" width="400" alt="Refinery Site Overview">
+  <img src="images/oilandgas_refinery_site.png" width="70%" alt="Refinery Site Overview">
 </p>
 ## 📋 Overview
 This repository provides a high-performance **Edge AI** solution for monitoring safety at oil and gas sites. Using a **Google Coral USB TPU**, we perform real-time object detection to identify personnel and trigger alerts if they enter hazardous "Restricted Zones."
