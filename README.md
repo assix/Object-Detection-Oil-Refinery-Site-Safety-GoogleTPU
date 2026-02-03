@@ -10,7 +10,8 @@ This repository provides a high-performance **Edge AI** solution for monitoring 
 <p align="center">
   <img src="images/coral_tpu.jpg" width="50%" alt="Google Coral USB TPU Hardware Setup">
 </p>
-## 🛠️ Hardware Requirements & Specifications
+
+🛠️ Hardware Requirements & Specifications
 To achieve real-time, low-latency inference at the edge, this project utilizes the **Google Coral USB Accelerator**.
 
 ### Core Specifications:
@@ -21,7 +22,7 @@ To achieve real-time, low-latency inference at the edge, this project utilizes t
 * **Dimensions:** 65 mm x 30 mm.
 * **Host Compatibility:** Debian Linux (including Raspberry Pi), macOS, and Windows 10/11.
 
-## 🚀 Installation
+🚀 Installation
 1.  **Install the Edge TPU Runtime:**
     ```bash
     sudo apt-get install libedgetpu1-std
@@ -32,13 +33,14 @@ To achieve real-time, low-latency inference at the edge, this project utilizes t
     pip3 install -r requirements.txt
     ```
 
-## 🔍 Visual Logic: Geofencing
+🔍 Visual Logic: Geofencing
 The system draws a virtual perimeter over the camera feed. If a detected `person` coordinate overlaps with the `DANGER_ZONE` coordinates, a red alert is logged. By utilizing the 4 TOPS performance of the Edge TPU, the detection happens in milliseconds, ensuring immediate safety response.
 
 <p align="center">
   <img src="images/refinery_safety_danger_zone.png" width="70%" alt="Detection Logic Example">
 </p>
-## 📂 Project Structure
+
+📂 Project Structure
 * `safezone_monitor.py`: Core logic for detection and restricted area checking.
 * `requirements.txt`: Python dependencies.
 * `images/`: UI elements and demonstration images.
